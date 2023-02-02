@@ -374,7 +374,7 @@ that we end up with a nice discrete probability distribution with 10 possible ev
 
 Our network is small enough that we can actually write out the entire process as a single function using the notation we've built so far:
 
-$$f(\mathbf{x}^{[0]}) = \mathbf{y}^{[2]} = \mathrm{softmax}\left(\mathbf{W}^{[2]}\left(\max\left(\mathbf{0}, \mathbf{W}^{[1]}\mathbf{x}^{[0]} + \mathbf{b}^{[1]}\right) \right) + \mathbf{b}^{[1]} \right)$$
+$$f(\mathbf{x}^{[0]}) = \mathbf{y}^{[2]} = \mathrm{softmax}\left(\mathbf{W}^{[2]}\left(\max\left(\mathbf{0}, \mathbf{W}^{[1]}\mathbf{x}^{[0]} + \mathbf{b}^{[1]}\right) \right) + \mathbf{b}^{[2]} \right)$$
 
 ### Optimizing our network
 
